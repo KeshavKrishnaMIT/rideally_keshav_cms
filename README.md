@@ -14,14 +14,6 @@ A complete multi-role Content Management System developed during my Summer Train
 
 ---
 
-## Live Demo
-
-🌐 Website URL
-
-**https://rideally-keshav-cms.lovestoblog.com/mini_pro_rideally/auth/login.php**
-
----
-
 ## Demo Credentials
 
 ### User Account
