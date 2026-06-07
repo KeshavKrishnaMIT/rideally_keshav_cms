@@ -14,6 +14,14 @@ A complete multi-role Content Management System developed during my Summer Train
 
 ---
 
+## Live Demo
+
+🌐 Website URL
+
+**https://rideally-keshav-cms.lovestoblog.com/mini_pro_rideally/auth/login.php**
+
+---
+
 ## Demo Credentials
 
 ### User Account
@@ -25,6 +33,33 @@ A complete multi-role Content Management System developed during my Summer Train
 **Role:** User
 
 ---
+
+### Author Account
+
+**Email:** author@rideally.com
+
+**Password:** author123
+
+**Role:** Author
+
+---
+
+### Editor Account
+
+**Email:** editor@rideally.com
+
+**Password:** editor123
+
+**Role:** Editor
+
+---
+
+### Notes
+
+- User can view approved content and access the user dashboard.
+- Author can create and manage their own posts.
+- Editor can review and manage submitted content.
+- Super Admin account is reserved for administration and is not included in public demo credentials.
 
 ## Project Overview
 
