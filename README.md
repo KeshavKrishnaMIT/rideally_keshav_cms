@@ -18,9 +18,9 @@ A complete multi-role Content Management System developed during my Summer Train
 
 ### User Account
 
-**Email:** demo@rideally.com
+**Email:** c@email
 
-**Password:** demo123
+**Password:** 2222
 
 **Role:** User
 
