@@ -16,35 +16,52 @@ A complete multi-role Content Management System developed during my Summer Train
 
 ## Demo Credentials
 
+The following demo accounts are provided to explore different roles and functionalities of the Content Management System.
+
 ### User Account
 
-**Email:** c@email
-
-**Password:** 2222
-
+**Email:** [user@rideally.com](mailto:user@rideally.com)
+**Password:** user123
 **Role:** User
+
+**Access:**
+
+* View approved content
+* Access the user dashboard
+* Interact with published posts
 
 ---
 
 ### Author Account
 
-**Email:** a@gmail
-
-**Password:** 1234
-
+**Email:** [author@rideally.com](mailto:author@rideally.com)
+**Password:** author123
 **Role:** Author
+
+**Access:**
+
+* Create new posts
+* Edit own posts
+* Submit posts for review and approval
 
 ---
 
 ### Editor Account
 
-**Email:** b@gmail
-
-**Password:** 1111
-
+**Email:** [editor@rideally.com](mailto:editor@rideally.com)
+**Password:** editor123
 **Role:** Editor
 
+**Access:**
+
+* Review submitted posts
+* Approve or reject content
+* Maintain content quality standards
+
 ---
+
+> **Note:** Super Admin and Admin accounts are reserved for system administration purposes and are not included in the public demo credentials.
+
 
 ### Notes
 
