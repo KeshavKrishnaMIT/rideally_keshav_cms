@@ -6,12 +6,54 @@ A complete multi-role Content Management System developed during my Summer Train
 
 ---
 
+## Live Demo
+
+🌐 **Website URL**
+
+**https://rideally-keshav-cms.lovestoblog.com/mini_pro_rideally/auth/login.php**
+
+---
+
+## Demo Credentials
+
+### User Account
+
+**Email:** c@email
+
+**Password:** 2222
+
+**Role:** User
+
+---
+
+### Author Account
+
+**Email:** a@gmail
+
+**Password:** 1234
+
+**Role:** Author
+
+---
+
+### Editor Account
+
+**Email:** b@gmail
+
+**Password:** 1111
+
+**Role:** Editor
+
+---
+
 ### Notes
 
 - User can view approved content and access the user dashboard.
 - Author can create and manage their own posts.
-- Editor can review and manage submitted content.
-- Super Admin account is reserved for administration and is not included in public demo credentials.
+- Editor can review submitted posts and maintain content quality.
+- Super Admin and Admin accounts are reserved for administration and are not included in public demo credentials.
+
+---
 
 ## Project Overview
 
@@ -55,7 +97,7 @@ The system supports:
 
 ### Author
 
-- Create and edit own posts
+- Create and edit their own posts
 - Submit posts for approval
 
 ### User
@@ -110,7 +152,7 @@ This ensures quality control before publishing.
 
 ### Reports Dashboard
 
-Provides:
+Provides insights such as:
 
 - Total Users
 - Total Posts
@@ -132,9 +174,9 @@ Displays:
 
 ## Database Design
 
-Main Tables:
+### Main Tables
 
-### users
+#### users
 
 Stores:
 
@@ -144,23 +186,23 @@ Stores:
 - Role
 - Status
 
-### posts
+#### posts
 
 Stores:
 
 - Post Details
 - Content
-- Author
+- Author Information
 - Status
-- Category
+- Category Association
 
-### categories
+#### categories
 
 Stores:
 
 - Category Information
 
-### comments
+#### comments
 
 Stores:
 
@@ -182,11 +224,11 @@ mini_pro_rideally/
 │
 ├── auth/
 │   ├── login.php
-│   ├── logout.php
+│   └── logout.php
 │
 ├── config/
 │   ├── db.php
-│   ├── constants.php
+│   └── constants.php
 │
 ├── includes/
 ├── assets/
@@ -196,89 +238,3 @@ mini_pro_rideally/
 │
 ├── index.php
 └── .htaccess
-```
-
----
-
-## Technologies Used
-
-### Frontend
-
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
-
-### Backend
-
-- PHP
-
-### Database
-
-- MySQL
-
-### Hosting
-
-- InfinityFree
-
-### Version Control
-
-- Git
-- GitHub
-
----
-
-## Learning Outcomes
-
-Through this project I learned:
-
-- PHP Development
-- MySQL Database Design
-- CRUD Operations
-- Authentication & Authorization
-- Session Handling
-- Role-Based Access Control
-- Content Management Workflows
-- Deployment on Shared Hosting
-- Git & GitHub Version Control
-
----
-
-## Future Improvements
-
-Potential enhancements:
-
-- Password Hashing
-- Email Verification
-- Rich Text Editor
-- Search Functionality
-- REST API
-- Media Library
-- Activity Logs
-- Advanced Analytics
-- Dark Mode
-- Notifications
-
----
-
-## Developed During
-
-**Summer Training with RideAlly**
-
-This project was developed as part of practical industry-oriented training focused on web development, database management, authentication systems, content workflows, and deployment practices.
-
----
-
-## Author
-
-**Keshav Krishna Singh**
-
-B.Tech Student
-
-Summer Training Project – RideAlly
-
----
-
-## Thank You
-
-Thank you for visiting this repository.
